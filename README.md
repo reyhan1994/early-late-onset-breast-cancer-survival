@@ -64,7 +64,11 @@ and highlights the potential of AI-assisted prognostic modeling.
 git clone https://github.com/<your-username>/early-late-onset-breast-cancer-survival.git
 ```
 
-Install dependencies
+2.Install dependencies
 ```
 pip install -r requirements.txt
 ```
+3.Open notebooks in /notebooks and follow the step-by-step analysis
+🔗 Citation
+Dataset: [METABRIC Breast Cancer Gene Expression (Kaggle)](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric)
+
