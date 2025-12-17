@@ -28,7 +28,8 @@ age-associated genomic signatures and survival patterns.
 - Survival modeling using latent representations from the autoencoder
 - Assessment of prognostic value of deep learning–derived features
   
-  ```breast-cancer-early-late-survival/
+```plaintext
+breast-cancer-early-late-survival/
 │
 ├── notebooks/
 │   ├── 01_data_preprocessing.ipynb
