@@ -62,8 +62,9 @@ and highlights the potential of AI-assisted prognostic modeling.
 1. Clone the repository  
 ```bash
 git clone https://github.com/<your-username>/early-late-onset-breast-cancer-survival.git
+```
 
 Install dependencies
-'''
+```
 pip install -r requirements.txt
-'''
+```
