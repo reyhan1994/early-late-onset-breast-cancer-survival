@@ -1,36 +1,64 @@
-# early-late-onset-breast-cancer-survival
-Early- vs late-onset breast cancer comparison integrating clinical, genomic features and survival analysis using classical statistics and deep learning models.
-# Breast Cancer Early-onset vs Late-onset Survival Analysis
+# Early- vs Late-Onset Breast Cancer Analysis
 
-This repository presents a reproducible analysis of breast cancer gene expression
-and clinical data from the METABRIC cohort, with a focus on age-of-onset–related
-differences in tumor biology and patient survival.
+This repository presents a comprehensive analysis of breast cancer patients
+from the **METABRIC cohort**, focusing on **age-of-onset differences** and their
+impact on tumor biology and patient survival. The project integrates **clinical data**, 
+**gene expression profiles**, and **deep learning models** to uncover
+age-associated genomic signatures and survival patterns.
 
-## Project Structure
+---
 
-1. **Early-onset vs Late-onset Comparison**
-   - Stratification of patients based on age at diagnosis
-   - Comparison of clinical variables and gene expression patterns
+## 📂 Project Structure
 
-2. **Survival Difference Between Early vs Late**
-   - Kaplan–Meier survival analysis
-   - Statistical comparison using log-rank tests
+### 1. Early-onset vs Late-onset Comparison
+- Stratification of patients into **Early-onset (≤40 years)** and **Late-onset (≥60 years)** groups
+- Comparison of clinical variables and gene expression patterns
+- Visualization of age-associated differences
 
-3. **Deep Learning–Based Representation Learning**
-   - Autoencoder model trained on high-dimensional gene expression data
-   - Extraction of latent representations
+### 2. Survival Analysis: Early vs Late
+- Kaplan–Meier survival curves
+- Log-rank test for statistical significance
+- Cox proportional hazards modeling for quantitative survival differences
 
-4. **Autoencoder + Survival Modeling**
-   - Cox proportional hazards modeling in the learned latent space
-   - Evaluation of prognostic value of deep representations
+### 3. Deep Learning Representation Learning
+- Autoencoder applied to high-dimensional gene expression data
+- Extraction of **latent features** capturing complex genomic patterns
 
-## Dataset
-- METABRIC Breast Cancer Gene Expression dataset (Kaggle)
+### 4. Autoencoder + Survival Modeling
+- Survival modeling using latent representations from the autoencoder
+- Assessment of prognostic value of deep learning–derived features
 
-## Tools
-Python, Pandas, Scikit-learn, PyTorch, Lifelines
+---
 
-## Motivation
-This project demonstrates the integration of large-scale genomic data with
-deep learning and survival analysis for clinical risk modeling.
+## 📊 Figures
+- Visualizations of age-specific clinical and genomic differences
+- Kaplan–Meier survival plots
+- Latent space embeddings of gene expression data
+- Differential expression analysis highlights
 
+*(All figures are stored in the `/figures` folder)*
+
+---
+
+## 🧰 Tools & Libraries
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn  
+- **Machine Learning**: Scikit-learn  
+- **Deep Learning**: PyTorch  
+- **Survival Analysis**: Lifelines  
+- **Data**: METABRIC Breast Cancer Gene Expression dataset (Kaggle)
+
+---
+
+## 💡 Motivation
+This project demonstrates the integration of **clinical and genomic data** 
+with **machine learning and deep learning approaches** to investigate
+age-related differences in breast cancer biology and survival.  
+It serves as a reproducible pipeline for translational cancer research
+and highlights the potential of AI-assisted prognostic modeling.
+
+---
+
+## 📖 How to Reproduce
+1. Clone the repository  
+```bash
+git clone https://github.com/<your-username>/early-late-onset-breast-cancer-survival.git
